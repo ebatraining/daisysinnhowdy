@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="keywords" content="宿泊,沖縄,ペット可,海まで１０分,ドッグラン,貸切,ゲストハウス,guesthouse">
+<meta name="description" content="海でペットと思い出作り！海まで１０分！ドッグラン完備のペットと泊まれる！">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style_food.css">
+<link rel="stylesheet" href="css/sp_food.css">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Daisy's INN Howdy-食事-</title>
+<!--IE対策-->
+<script type="text/javascript" src="js/html5shiv.min.js"></script>
+<script type="text/javascript" src="js/respond.min.js"></script>
+<!--IE対策ー完ー-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+</script>
+<script type="text/javascript" src="js/gallery.js"></script> 
+<script src="js/gallery.js"></script>
+<!--ドロワーメニュー-->
+<script>
+$(function(){
+  $("#menu_sp").css("display","none");
+  $("#menu-bt").on("click", function() {
+    $("#menu_sp").slideToggle();
+    $(this).toggleClass("active");
+  });
+});
+</script>
+<!--ドロワーメニュー(終)-->
+
+<!--トップに戻る-->
+<script>
+$(document).ready(function() {
+	var pagetop = $('.pagetop');
+	$(window).scroll(function () {
+	if ($(this).scrollTop() > 100) {
+		pagetop.fadeIn();
+		} else {
+		pagetop.fadeOut();}});
+	pagetop.click(function () {
+	$('body, html').animate({ scrollTop: 0 }, 500);
+	return false;
+});
+});
+</script>
+<!--トップに戻る-->
+</head>
+
+<body>
+		<header>
+			<div id="top_img">
+			<img src="images/food_top.png" alt="食事トップ画像">
+			</div>
+			<div class="menu">
+				<div class="hako">
+						<span class="m"><img src="images/menu_left.png" alt="左端"></span>
+						<a href="index.html"><img src="images/menu_home.png" alt="メニューホーム"></a>
+						<a href="room.html"><img src="images/menu_room.png" class="hover" alt="メニュー部屋" ></a>
+						<a href="food.html"><img src="images/menu_food_bule.png" class="hover" alt="メニュー食事"></a>
+						<a href="pet.html"><img src="images/menu_pet.png" class="hover" alt="メニューペット"></a>
+						<a href="access.html"><img src="images/menu_access.png" class="hover" alt="メニューアクセス"></a>
+						<a href="otoiawase.html"><img src="images/menu_toiawase.png" class="hover" alt="メニューお問合わせ"></a>
+						<span class="m"><img src="images/menu_right.png" class="hover" alt="右端"></span>
+				</div>
+			<div class="box_menu"></div>
+			</div>
+				<!--レスポンシブデザイン-->
+			<div class="sp_menu_all">
+				<div id="menu-bt">
+					<img src="images/sp_img/menu_sp.png">
+				</div>
+
+				<nav id="menu_sp">
+					<ul>
+					<li><a href="index.html"><img src="images/sp_img/sp_home.png"></a></li>
+					<li><a href="room.html"><img src="images/sp_img/sp_room.png"></a></li>
+					<li><a href="food.html"><img src="images/sp_img/sp_food.png"></a></li>
+					<li><a href="pet.html"><img src="images/sp_img/sp_pet.png"></a></li>
+					<li><a href="access.html"><img src="images/sp_img/sp_accsse.png"></a></li>
+					<li><a href="otoiawase.html"><img src="images/sp_img/sp_toiawase.png"></a></li>
+					</ul>
+				</nav>
+			</div>
+			<p class="pagetop"><a href="#wrap"><img src="images/sp_img/top_sp.png"></a></p>
+		</header>
+		
+		<main>
+			<div id="title">
+				<img src="images/food_title.png" alt="食事タイトル">
+			</div>
+			<div class="infobox">
+			<h2>Daisy's INN Howdy からお知らせ</h2>
+			<ul>
+				<li>平成28年９月　現在cafeとしての営業はお休みさせていただいております。</li>
+				<li>平成28年９月　現在cafeとしての営業はお休みさせていただいております。</li>
+				<li>平成28年９月　現在cafeとしての営業はお休みさせていただいております。</li>
+			</ul>
+			</div>
+			
+			<div class="food_naiyo">
+				<div class="food_setsumei">
+					<img src="images/food_setumei.png" alt="説明">
+				</div>
+				<div id="food_img">
+					<div class="mod_gallery_photo gallery">
+					<img src="images/tacorice.png" alt="orange">
+					<!-- mod_gallery_photo_end --></div>
+					<div class="mod_gallery">
+					<div class="mod_gallery_navi">
+					<ul class="ex_clearfix">
+
+					<li><a class="gallery" href="images/chikin.png"><img src="images/chikin.png"></a></li>
+					<li><a class="gallery" href="images/tacorice.png"><img src="images/tacorice.png"></a></li>
+					<li><a class="gallery" href="images/curry.png"><img src="images/curry.png"></a></li>
+					<li><a class="gallery" href="images/pasta.png"><img src="images/pasta.png"></a></li>
+					<li><a class="gallery" href="images/cake2.png"><img src="images/cake2.png"></a></li>
+					<li><a class="gallery" href="images/cake1.png"><img src="images/cake1.png"></a></li>
+					</ul>
+					<!-- mod_gallery_navi_end --></div>
+					<!--mod_gallery_end--></div>
+					</div><!--#food_naiyo-->
+			</div>
+			<div class="coffee">
+				<img src="images/coffee.jpg" alt="コーヒー">
+			</div>
+		</main>
+		
+		<footer>
+		</footer>
+</body>
+</html>

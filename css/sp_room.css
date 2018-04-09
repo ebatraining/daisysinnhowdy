@@ -1,0 +1,288 @@
+@media screen and (max-width:767px){
+
+	body{
+		margin: 0;
+	}
+	
+	p{
+		padding: 0;
+		margin: 0;
+		color: #534741;
+	}
+	
+	h1,h2{
+		padding: 0;
+		margin: 0;
+		color: #534741;
+	}
+	
+	
+	#top_img img{
+		width: 100%;
+	}
+	
+	.menu{
+		display: none;
+	}
+
+	.box_menu{
+		display: none;
+	}
+	
+	.sp_menu_all{
+		background: #FCFBE5;
+	}
+	
+	#menu-bt img{
+		width: 42%;
+		margin-left: 28%;
+		margin-top: 2%;
+		margin-bottom: 1%;
+	}
+	
+	#menu_sp{
+		margin-top: 4%;
+	}
+	
+	#menu_sp a{
+		display: block;
+	}
+	
+	#menu_sp li{
+		list-style: none;
+	}
+	
+	#menu_sp img{
+		width: 57%;
+		margin-left: 21%;
+	}
+	
+	#menu_sp ul{
+		background-image: url(../images/sp_img/dorower_back.png);
+		background-size: 100%;
+	}
+	
+	.pagetop{
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		display: none;
+		width: 22%;
+	}
+	
+	.pagetop img{
+		width: 100%;
+	}
+	
+	.dih_explain{
+		position: relative;
+		width: 82%;
+		margin-top:11%;
+		margin-left: 10%;
+		z-index: 1;
+	}
+
+	.house17{
+		margin-top: 4%;
+		background: #FCFBE5;
+		padding: 3% 0% 3% 0%;
+	}
+	
+	.photo1{
+		margin-left: 8%;
+		width: 85%;
+	}
+	
+	.photo1 img{
+		width: 100%;
+	}
+	
+	.kuzureyobou{
+		width: 89%;
+		padding-top: 2%;
+		padding-bottom: 3%;
+		margin-left: 6%;
+		margin-top: 2%;
+		background: #ffffff;
+		border-radius: 23px;
+	}
+	
+	.kuzureyobou h1{
+		padding: 0;
+		margin: 0;
+		color: #ffffff;
+
+	}
+	
+	.kuzureyobou img{
+		width: 100%;
+		margin-top: 0;
+	}
+	
+	.ie7{
+		color: blue;
+		text-align: center;
+		font-size: small;
+	}
+	
+	.room_1{
+		position: relative;
+		margin-left: 25%;
+		width: 50%;
+	}
+	
+	.room_1 h1{
+		position: absolute;
+		top:9%;
+		left: 16%;
+		font-size: 5.5vw;
+	}
+	
+	.price{
+		font-size: 3.5vw;
+		font-weight: bold;
+		margin-left: 13%;
+	}
+	
+	.text{
+		width: 95%;
+		margin-left: 8%;
+		padding-bottom: 7%;
+	}
+	
+	.text h2{
+		font-size: 3.8vw;
+		text-align: center;
+		margin-right: 10%;
+	}
+	
+	.moji1{
+		font-size:1vw;
+		width: 92%;
+	}
+	
+	.moji2{
+		font-size:3vw;
+		width: 92%;
+		margin-left: 7%;
+	}
+	
+	.maisonette{
+		margin-top: 4%;
+		overflow: hidden;
+		zoom:1;
+		background: #FCFBE5;
+		padding: 3% 0% 3% 0%;
+		position: relative;
+	}
+	
+	.chuijiko_sp_1{
+		position: absolute;
+		top:91%;
+		left: 3%;
+		width: 100%;
+	}
+	.chuijiko{
+	display: none;
+	}
+	
+	.chui{
+		margin-left: 35%;
+	}
+	
+	
+	.mod_gallery{
+		overflow: hidden;
+		zoom:1;
+	}
+	
+	.mod_gallery_photo{
+		float: left;
+		width: 68%;
+		margin-left: 8%;
+	}
+	
+	.mod_gallery_photo img{
+		width: 100%;
+	}
+	
+	.mod_gallery_navi{
+		float: right;
+		width: 15%;
+		margin-right: 6%;
+		margin-top: -5%;
+	}
+	
+	.mod_gallery_navi img{
+		width: 100%;
+		margin-top: 4%;
+	}
+	
+	li{
+		list-style: none;
+	}
+	
+	ul{
+		padding: 0;
+	}
+	
+	.kuzureyobou1{
+		width: 88%;
+		padding-top: 2%;
+		padding-bottom: 3%;
+		background: #ffffff;
+		border-radius: 23px;
+		margin-top: 1%;
+		margin-left: 7%;
+	}
+	
+	.kuzureyobou1 h1{
+		padding: 0;
+		margin: 0;
+		color: #ffffff;
+		margin-left: 3%;
+	}
+	
+	.kuzureyobou1 img{
+		width: 100%;
+		margin-top: 0;
+	}
+	
+	.room101,.room102,.room201,.room202,.room203{
+		margin-top: 4%;
+		background: #FCFBE5;
+		padding: 3% 0% 3% 0%;
+	}
+
+	.cancel_amenities{
+		width: 77%;
+		margin-left: 3%;
+		margin-top: 4%;
+		margin-bottom: 4%;
+		border: solid 11pt #76d9ff;
+		padding: 4%;
+		border-radius: 51px;
+	}
+
+	.cancel_amenities ul{
+		margin-top: 0;
+		margin-left: 5%;
+	}
+	
+	#cancel h1{
+		font-size: 7vw;
+		margin-left: 6%;
+	}
+
+	#amenities h1{
+		font-size: 7vw;
+		margin-left: 3%;
+	}
+	
+	footer{
+		background: #76d9ff;
+		padding: 4%;
+	}
+
+
+}/*サイズ指定終わり*/

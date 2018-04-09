@@ -1,0 +1,120 @@
+@media screen and (max-width:767px){
+	
+	body,p{
+		margin:0;
+		padding: 0;
+	}
+	
+
+	#top_img img{
+		width: 100%;
+	}
+	
+	.sp_menu_all{
+		background: #FCFBE5;
+	}
+	
+	.menu{
+		display: none;
+	}
+	
+
+	#menu-bt img{
+		width: 42%;
+		margin-left: 28%;
+		margin-top: 2%;
+		margin-bottom: 1%;
+	}
+	
+	#menu_sp{
+		margin-top: 4%;
+	}
+	
+	#menu_sp a{
+		display: block;
+	}
+	
+	#menu_sp li{
+		list-style: none;
+	}
+	
+	#menu_sp img{
+		width: 51%;
+		margin-left: 19%;
+	}
+	
+	#menu_sp ul{
+		background-image: url(../images/sp_img/dorower_back.png);
+		background-size: 100%;
+		margin: 0;
+	}
+	
+	.pagetop{
+		display: none;
+		width: 22%;
+		z-index: 99;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+	}
+	
+	.pagetop img{
+		width: 100%;
+	}
+	.menu{
+	display: none;
+	}
+	
+	/*-----ヘッダー部分スタイル(完)-----*/
+	
+
+	.otoiawase_naiyo{
+		color: #666666;
+		margin-left: 2%;
+		margin-top: 7%;
+	}
+	
+	.form_all{
+		background: #76d9ff;
+		padding-bottom: 13%;
+	}
+	
+	.form_all h1{
+		text-align: center;
+		color: #ffffff;
+		padding-top: 5%;
+		font-size: 7vw;
+	}
+	
+	input{
+		width: 81%;
+		height: 34px;
+		margin-left: 11%;
+	}
+	
+	.form p{
+		margin: 0;
+		font-size: 3vw;
+		color: #333333
+	}
+	
+	th{
+		color: #333333;
+		width: 32%;
+		padding: 0;
+	}
+	
+	
+	.box{
+		margin-left: 36%;
+	}
+	
+	.box button{
+		background: #ffffff;
+	}
+	
+	#message{
+		width: 81%;
+		margin-left: 11%;
+	}
+}/*サイズ指定終わり*/

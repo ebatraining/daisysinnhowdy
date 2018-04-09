@@ -1,0 +1,162 @@
+@media screen and (min-width:768px){
+	
+	boby,html{
+		height: 100%;
+	}
+	
+	#top_img img{
+		width: 80%;
+		margin-left: 10%;
+	}
+	
+	.sp_menu_all{
+		display: none;
+	}
+	
+	#menu_sp{
+		display: none;
+	}
+	
+	.pagetop img{
+		display: none;
+	}
+	
+	.hako{
+		width: 100%;
+		margin-left: 5.5%;
+		margin-top: 3%;
+		margin-bottom: -3.3%;
+		position: relative;
+		z-index: 5;
+	}
+	
+	.hako img{
+		padding: 0;
+		width: 14%;
+		border: 0;
+		opacity: 1;
+		transition: 0.3s;
+	}
+
+	a:hover img{
+		opacity: .5;
+	}
+	
+	.m img{
+		width: 2.2%;
+	}
+	
+	.box_menu{
+		background: #FCFBE5;
+		width: 100%;
+		height: 60px;
+	}
+
+	
+	.category{
+		background: #ffffff;
+		border: dashed 4pt #754c24;
+		width: 82%;
+		margin-left: 9%;
+		position: relative;
+	}
+	
+	
+	#dog_img img{
+		margin-left: 36%;
+		width: 30%;
+	}
+	
+	#onegai1 img,.living_with_dogs img{
+		margin-top: 19%;
+		width: 73%;
+		margin-left: 14%;
+	}
+
+	
+	.dog_02 img{
+		width: 30%;
+		position: absolute;
+		top: -0.5%;
+		left: 35%;
+	}
+	
+	h2{
+		color: #4d4d4d;
+		font-size: 15pt;
+	}
+
+	.dogrun_naiyo1,.dogrun_naiyo2{
+		margin-left: 13%;
+	}
+	
+	.category p{
+		margin: 0;
+		font-size: small;
+		margin-bottom: 1%;
+		margin-top: -1%;
+	}
+	
+	.category li{
+		margin-bottom: 1%;
+	}
+	
+	footer{
+		background: #76d9ff;
+		padding: 4%;
+		width: 100%;
+	}
+	
+	.living_with_dogs img{
+		margin-top: 8%;
+		width: 73%;
+		margin-left: 14%;
+	}
+	
+	.category2{
+		background: #ffffff;
+		border: dashed 4pt #754c24;
+		width: 82%;
+		margin-left: 9%;
+		margin-top: 7%;
+	}
+	
+	.category2 p{
+		margin: 0;
+		font-size: small;
+		margin-bottom: 1%;
+		margin-top: -1%;
+	}
+	
+	.category2 li{
+		margin-bottom: 1%;
+		margin-left: 5%;
+	}
+	
+	.l_w_g_naiyo1{
+		margin-left:10%;
+		width: 80%;
+	}
+	
+	.l_w_g_naiyo_sp{
+		display: none;
+	}
+	
+	.motimono{
+		margin-left: 9%;
+		border: solid 4px #754c24;
+		width: 83%;
+		margin-top: 4%;
+	}
+	
+	.motimono h1{
+		color: #754c24;
+		text-align: center;
+	}
+	
+	.motimono p{
+		text-align: center;
+		margin-top: -1%;
+		font-size: 2vw;
+	}
+}/*サイズ指定終わり*/

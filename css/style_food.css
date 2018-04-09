@@ -1,0 +1,147 @@
+@media screen and (min-width:768px){
+	
+	boby,html{
+		height: 100%;
+	}
+	
+	#top_img img{
+		width: 80%;
+		margin-left: 10%;
+	}
+	
+	.hako{
+		width: 100%;
+		margin-left: 5.5%;
+		margin-top: 3%;
+		margin-bottom: -3.3%;
+		position: relative;
+		z-index: 5;
+	}
+	
+	.hako img{
+		padding: 0;
+		width: 14%;
+		border: 0;
+		opacity: 1;
+		transition: 0.3s;
+	}
+
+	.sp_menu_all{
+		display: none;
+	}
+	.pagetop img{
+		display: none;
+	}
+	
+	a:hover img{
+		opacity: .5;
+	}
+	
+	.m img{
+		width: 2.2%;
+	}
+	
+	.box_menu{
+		background: #FCFBE5;
+		width: 100%;
+		height: 60px;
+	}
+	
+	#title{
+		margin-top: 5%;
+		margin-left: 1%;
+	}
+	
+	#title img{
+		width: 89%;
+		margin-left: 5%;
+	}
+	
+	.infobox{
+		width: 79%;
+		height: 10rem;
+		overflow-y:scroll;
+		border: solid 35px #FCFBE5;
+		border-radius: 0 0 59px 59px;
+		background-color: #FFFFFF;
+		margin-left: 6%;
+		margin-top: 6%;
+	}
+
+	.infobox li{
+		font-size: 15pt;
+		margin-left: 45px;
+		margin-top: 12px;
+		color: #666666;
+	}
+
+	.infobox h2{
+		color: #666666;
+		text-align: center;
+		border-bottom: solid 1pt #666666;
+	}
+	
+	
+	.food_naiyo{
+		width: 98%;
+		background-image: url(../images/p0476_m_kako.png);
+		margin-top: 5%;
+		margin-left: 1%;
+	}
+	
+	.food_setsumei img{
+		margin-top: 10%;
+		margin-left: 21%;
+		width: 61%;
+	}
+	
+	#food_img{
+		overflow: hidden;
+		zoom:1;
+		width: 83%;
+		margin-left: -4.2%;
+		margin-top: 8%;
+		padding-bottom: 10%;
+	}
+
+	.gallery img{
+		width: 35%;
+		float: right;
+	}
+	
+	.mod_gallery_navi li a{
+		display:block;
+		list-style: none;
+	}
+	
+	.mod_gallery_navi li {
+		list-style: none;
+	}
+	.mod_gallery_navi li a:hover
+	{opacity:0.8;}
+	
+/*	.mod_gallery_navili a:active
+	{opacity:0.8;}*/
+
+
+	.mod_gallery_photo img{
+		position:absolute;
+		width:54%;
+		height:auto;
+		right: 22%;
+	}
+	
+	.coffee img{
+		width: 85%;
+		margin-top: 4%;
+		margin-bottom: 4%;
+		margin-left: 8%;
+	}
+	
+	footer{
+		background: #76d9ff;
+		padding: 4%;
+		width: 100%;
+		margin-top: 2%;
+	}
+}/*サイズ指定終わり*/

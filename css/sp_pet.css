@@ -1,0 +1,183 @@
+@media screen and (max-width:767px){
+	
+	body{
+		padding: 0;
+		margin: 0;
+	}
+	
+	#top_img img{
+		width: 100%;
+	}
+	
+	.sp_menu_all{
+		background: #FCFBE5;
+	}
+	
+	
+	#menu-bt img{
+		width: 42%;
+		margin-left: 28%;
+		margin-top: 2%;
+		margin-bottom: 1%;
+	}
+	
+	#menu_sp{
+		margin-top: 4%;
+	}
+	
+	#menu_sp a{
+		display: block;
+	}
+	
+	#menu_sp li{
+		list-style: none;
+	}
+	
+	#menu_sp img{
+		width: 57%;
+		margin-left: 21%;
+	}
+	
+	#menu_sp ul{
+		background-image: url(../images/sp_img/dorower_back.png);
+		background-size: 100%;
+		margin: 0;
+	}
+	
+	.pagetop{
+		position: fixed;
+		display: none;
+		width: 22%;
+		right: 0;
+		bottom:0;
+		z-index: 99;
+	}
+	
+	.pagetop img{
+		width: 100%;
+	}
+	
+	.menu{
+	display: none;
+	}
+	
+	..box_menu{
+		display: none;
+	}
+	
+	.category{
+		background: #ffffff;
+		border: dashed 4pt #754c24;
+		width: 82%;
+		margin-left: 9%;
+		position: relative;
+	}
+	
+	#dog_img img{
+		margin-left: 29%;
+		width: 45%;
+	}
+	
+	#onegai1 img,.living_with_dogs img{
+		margin-top: 19%;
+		width: 85%;
+		margin-left: 7%;
+	}
+
+	
+	.dog_02 img{
+		width: 45%;
+		position: absolute;
+		top: -1%;
+		left: 29%;
+	}
+	
+	h2{
+		color: #4d4d4d;
+		font-size: 4vw;
+	}
+
+	.dogrun_naiyo1,.dogrun_naiyo2{
+		margin-left: 5%;
+		width: 87%;
+	}
+	
+	.category p{
+		margin: 0;
+		font-size: 0.1vw;
+		margin-bottom: 1%;
+		margin-top: -1%;
+	}
+	
+	ul{
+		padding: 0;
+		margin-left: 4%;
+	}
+	
+	.category li{
+		margin-bottom: 1%;
+		font-size: 3.5vw;
+	}
+
+	
+	.living_with_dogs img{
+		margin-top: 8%;
+		width: 82%;
+		margin-left: 10%;
+	}
+	
+	.category2{
+		background: #ffffff;
+		border: dashed 4pt #754c24;
+		width: 82%;
+		margin-left: 9%;
+		margin-top: 7%;
+	}
+	
+	.category2 p{
+		margin: 0;
+		font-size: small;
+		margin-bottom: 1%;
+		margin-top: -1%;
+	}
+	
+	.category2 li{
+		margin-bottom: 1%;
+		margin-left: 5%;
+		font-size: 3.5vw;
+	}
+	
+	.l_w_g_naiyo1{
+		display: none;
+	}
+	
+	.l_w_g_naiyo_sp{
+		margin-left:6%;
+		width: 86%;
+	}
+	
+	.motimono{
+		margin-left: 9%;
+		border: solid 4px #754c24;
+		width: 83%;
+		margin-top: 4%;
+	}
+	
+	.motimono h1{
+		color: #754c24;
+		text-align: center;
+		font-size: 3vw;
+	}
+	
+	.motimono p{
+		text-align: center;
+		margin-top: -1%;
+		font-size: 2vw;
+	}
+	
+	footer{
+		background: #76d9ff;
+		padding-top: 6%;
+		width: 100%;
+	}
+}/*サイズ指定終わり*/

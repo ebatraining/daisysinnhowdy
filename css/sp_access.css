@@ -1,0 +1,131 @@
+@media screen and (max-width:767px){
+	
+	body,p{
+		margin:0;
+		padding: 0;
+	}
+	
+
+	#top_img img{
+		width: 100%;
+	}
+	
+	.sp_menu_all{
+		background: #FCFBE5;
+	}
+	
+	.menu{
+		display: none;
+	}
+	
+	.box_menu{
+		display: none;
+	}
+
+	#menu-bt img{
+		width: 42%;
+		margin-left: 28%;
+		margin-top: 2%;
+		margin-bottom: 1%;
+	}
+	
+	#menu_sp{
+		margin-top: 4%;
+	}
+	
+	#menu_sp a{
+		display: block;
+	}
+	
+	#menu_sp li{
+		list-style: none;
+	}
+	
+	#menu_sp img{
+		width: 51%;
+		margin-left: 19%;
+	}
+	
+	#menu_sp ul{
+		background-image: url(../images/sp_img/dorower_back.png);
+		background-size: 100%;
+		margin: 0;
+	}
+	
+	.pagetop{
+		display: none;
+		width: 22%;
+		z-index: 99;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+	}
+	
+	.pagetop img{
+		width: 100%;
+	}
+	
+	/*-----ヘッダー部分スタイル(完)-----*/
+	
+	main{
+		background: #FCFBE5;
+		padding-bottom: 5%;
+		padding-top: 3%;
+	}
+	
+	.accses_naiyo{
+		background: #ffffff;
+		width: 69%;
+		margin-left:11%;
+		padding: 5%;
+		color: #4d4d4d;
+	}
+	
+	.accses_title{
+		color: #4d4d4d;
+		border-bottom: solid 3px #4d4d4d;
+		margin-left: 9%;
+		margin-bottom: -3%;
+		width: 80%;
+	}
+	
+	.accses_title h1{
+		margin: 0;
+		margin-top: 3%;
+	}
+	
+	.accses_howto{
+		background: #ffffff;
+		width: 75%;
+		padding: 2%;
+		margin-left: 10%;
+		margin-top: 4%;
+		color: #4d4d4d;
+	}
+	
+	.accses_chizu1 h2{
+		margin-bottom: 0;
+		font-size: 5vw;
+	}
+	
+	.accses_chizu1 p{
+		margin-top: 0;
+		margin-left: 4%;
+	}
+	
+	.google{
+		display: none;
+	}
+	
+	.google_sp{
+		margin-left: 9%;
+		margin-top: 6%;
+	}
+	
+	footer{
+		background: #76d9ff;
+		padding-top: 6%;
+		width: 100%;
+	}
+	
+}/*サイズ指定終わり*/
