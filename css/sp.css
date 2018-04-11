@@ -63,26 +63,52 @@
 		margin-top:11%;
 		margin-left: 10%;
 		z-index: 1;
+        display: none;
 	}
+    
+    .sp_explain{
+        position: relative;
+		width: 82%;
+		margin-top:5%;
+		margin-left: 9%;
+		z-index: 1;
+        text-align: center;
+        background: url(../images/dih_ship.png) left top no-repeat,
+                    url(../images/dih_pineapple.png) right top no-repeat,
+                    url(../images/dih_tori.png) right bottom no-repeat;  
+        background-size: 28%, 28%, 12%;
+    }
+    
+    .sp_logo{
+        width: 50%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .sp_setumei{
+        padding: 3% 5%;
+        border: dashed 2px #4d4d4d;
+        border-radius: 7%;
+         -moz-border-radius: 7%;
+         -webkit-border-radius: 7%;
+        font-family: 'Meiryo UI','ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+        font-size:90%;
+        line-height: 180%;
+    }    
 	
 	.sns{
-		width: 82%;
+        margin:0 auto;
 	}
 	
 	.twitter{
-		width: 5.5%;
-		position: absolute;
-		left: 43%;
-		top:73%;
-		padding: 0;
+        margin:0 3%;
+        width: 15%;
 		}
 	
 	.facebook{
-		width: 5%;
-		position: absolute;
-		top:72.5%;
-		left: 50%;
-		padding: 0;
+        width: 15%;
+        margin:0 3%;
 	}
 	
 	.threeword{
